@@ -1,0 +1,272 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder - Survey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <h1 class="display-4">Friend Finder Survey Magic</h1>
+        <p>Click below to go home and start this magical journey again.</p>
+        <p class="lead">
+            <a class="btn btn-warning btn-lg" href="/" role="button"><i class="fas fa-home"></i> Go Home</a>
+        </p>
+        <hr class="my-4">
+        <p class="lead">Survey Instructions</p>
+        <p>Select how much you agree or disagree with each statement where:</p>
+        <ul>
+            <li>5 = strongly agree</li>
+            <li>4 = agree</li>
+            <li>3 = neither agree, nor disagree</li>
+            <li>2 = disagree</li>
+            <li>1 = strongly disagree</li>
+        </ul>
+    </div>
+
+
+    <form>
+
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Name</label>
+            <input type="name" class="form-control" id="name" placeholder="John Smith">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Link to a photo</label>
+            <input type="photo" class="form-control" id="photo" placeholder="http://www.todayifoundout.com/wp-content/uploads/2017/12/myspace-tom.jpg">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Question 1: Dogs are better than cats.</label>
+            <select class="form-control" id="question1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Question 2: Die Hard is the greatest action film ever.</label>
+            <select class="form-control" id="question2">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Question 3: Old Fall Out Boy is better than new Fall Out Boy.</label>
+            <select class="form-control" id="question3">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+            
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Question 4: DC is better than Marvel.</label>
+            <select class="form-control" id="question4">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Question 5: Star Wars is better than the Lord of the Rings.</label>
+            <select class="form-control" id="question5">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+                
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Question 6: Tupac is better than Biggie.</label>
+            <select class="form-control" id="question6">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Question 7: Pop Punk is better than Crabcore.</label>
+            <select class="form-control" id="question7">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+                
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Question 8: Cereal is a Soup.</label>
+            <select class="form-control" id="question8">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+    
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Question 9: Coke is obviously superior to Pepsi.</label>
+            <select class="form-control" id="question9">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+                    
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Question 10: The dress was blue and black, not white and gold.</label>
+            <select class="form-control" id="question10">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary submit-btn">Submit</button>
+    </form>
+
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Your Match</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- boot strap garbage -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- Custom Garbage -->
+    <script>
+
+        // survey onclick store form info
+        $(".submit-btn").click(function(e) {
+            e.preventDefault();
+
+            var NewProfile = function() {
+                this.name = $("#name").val().trim();
+                this.photo = $("#photo").val().trim();
+                this.scores = [
+                    parseInt($("#question1").val()),
+                    parseInt($("#question2").val()),
+                    parseInt($("#question3").val()),
+                    parseInt($("#question4").val()),
+                    parseInt($("#question5").val()),
+                    parseInt($("#question6").val()),
+                    parseInt($("#question7").val()),
+                    parseInt($("#question8").val()),
+                    parseInt($("#question9").val()),
+                    parseInt($("#question10").val())
+                ];
+            }
+            
+            var newProfile = new NewProfile();
+            console.log(newProfile);
+            var userScores = [newProfile.scores];
+            console.log(userScores);
+
+            resetForm();
+
+            $.get("/api/profiles", function(data) {
+                console.log(data);
+                //for (let i = 0; i < data.length; i++) {
+                    var profileScores = data[0].scores.map(Number);
+                    var differencesArray = symmetricDifference(userScores, profileScores);
+                    var positiveArray = Math.abs(differencesArray);
+                    console.log(differencesArray);
+
+                //}
+            })
+
+            $.post("/api/profiles", newProfile)
+            .done(function(data) {
+
+                console.log(data);
+
+            })
+
+            $('.modal').modal('toggle');
+
+        });
+
+
+        function resetForm() {
+            $('.form-group input').each(function () {
+                $(this).val("");
+                x=1;
+            });
+            $('.form-group input').first().focus();
+        }
+
+        function symmetricDifference() {
+              
+        // Convert the argument object into a proper array
+        var args = Array.prototype.slice.call(arguments);
+
+        // Return the symmetric difference of 2 arrays
+        var getDiff = function(arr1, arr2) {
+
+        // Returns items in arr1 that don't exist in arr2
+            function filterFunction(arr1, arr2) {
+                return arr1.filter(function(item) {
+                    return arr2.indexOf(item) === -1;
+                });
+            }
+
+        // Run filter function on each array against the other then get unique values
+            return filterFunction(arr1, arr2)
+            .concat(filterFunction(arr2, arr1))
+            .filter(function(item, idx, arr) {
+                // Keep any items that are unique - the index of the current item === index of the first occurrence in the array
+                return arr.indexOf(item) === idx;
+            });
+        };
+
+        // Reduce all arguments getting the difference of them
+        return args.reduce(getDiff, []);
+        }
+
+    </script>
+
+</body>
+</html>
